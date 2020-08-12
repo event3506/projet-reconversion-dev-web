@@ -26,8 +26,17 @@ body
     box-shadow: #255caf 0.2em 0.2em 0.2em;
     
 }
-th
-{ 
+.menu {
+    display: grid;
+    grid-template-columns: 10em 10em 10em 10em 10em;
+    padding: 5px;
+    grid-column-gap: 10px;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .menu-item 
+{
     font-size: 1.1em;/*taille du texte*/
     margin-left: 0.3em;/*marge a gauche de 0.4em*/
     border: 0.2em groove #44abca;/*Epaisseur, style et couleur de la bordure*/
@@ -38,6 +47,10 @@ th
     font-weight: bold;/*gras*/
     justify-content: center;
     align-items: center;
+}
+th
+{ 
+
 
     
 }

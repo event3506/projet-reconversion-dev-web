@@ -1,0 +1,100 @@
+body
+{
+    font-family: Arial, "Arial Black", Verdana, sans-serif;
+    background: url("images/background4.jpg"); 
+    background-color: black;
+    color: rgb(207, 207, 207);
+    margin: auto;
+    width: 60em;
+
+    /*background-size: cover;/*fond d'écran étendu
+    margin: 0;
+    padding: 0;*/
+}
+
+.titre1
+{
+    text-align: center;
+    font-size: 1.5em;/*taille du texte*/
+}
+.titre1 span
+{
+    display: inline-block;
+    border: 0.2em outset #44abca;
+    border-radius: 0.4em;
+    padding: 0.7em;/*espace entre les bordures et le texte*/
+    box-shadow: #255caf 0.2em 0.2em 0.2em;
+    
+}
+th
+{ 
+    font-size: 1.1em;/*taille du texte*/
+    margin-left: 0.3em;/*marge a gauche de 0.4em*/
+    border: 0.2em groove #44abca;/*Epaisseur, style et couleur de la bordure*/
+    width: 7em;/*largeur de la bordure*/
+    text-align: center;
+    border-radius: 0.4em;/*bord arrondi*/
+    box-shadow: #255caf 0.1em 0.1em 0.1em;
+    font-weight: bold;/*gras*/
+    justify-content: center;
+    align-items: center;
+
+    
+}
+.t1
+{
+    border-spacing: 1.5em;/*espace entre les cellules*/
+    margin: auto;
+}
+
+a
+{
+    text-decoration: none;
+    color: rgb(207, 207, 207)
+}
+a:hover/*Quand on point la souris sur le lien*/
+{
+    text-decoration: underline;
+    background-color: rgb(122, 122, 122);
+}
+a:active/*change de couleur au moment du clic*/
+{
+    background-color: #360303;
+}
+.t2 
+{
+    border: 0.1em groove #44abca;
+    box-shadow: #255caf 0.1em 0.1em 0.1em;
+    font-size: 1em;
+    width: 60em;
+    text-align: justify;
+    border-radius: 0.4em;
+    box-shadow: #255caf 0.1em 0.1em 0.1em;
+}
+.P_tesla
+{
+    vertical-align: middle;
+    margin-left: 0.9em;
+    margin-bottom: 0.9em;
+    margin-right: 0.9em;
+}
+.imageflottantenico
+{
+    float: left;
+}
+.liste1
+{
+    list-style-type: upper-roman;/*chosis le type de puce pour toute les liste "ol"*/
+}
+ol
+{
+    border : 0.2em groove #44abca;
+    display: inline-block;
+    text-align: left;
+    margin-left: 1em;
+    font-size: 1em;
+    border-radius: 0.4em;
+    box-shadow: #255caf 0.1em 0.1em 0.1em;
+    width: auto;
+}
+

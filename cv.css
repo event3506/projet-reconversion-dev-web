@@ -1,0 +1,60 @@
+/*commentaire*/
+
+body
+{
+    background-color: black;
+    color: white;
+}
+.test-centrage-titre
+{
+    text-align: center;
+    color: rgb(7, 135, 185);
+    font-size: 1.8em;
+}
+
+h2
+{
+    text-align: center;
+    font-size: 1.4em;
+}
+
+p
+{
+    font-size: 0.8em;
+    font-family: Arial, "Arial Black", Verdana, sans-serif;
+}
+
+ul
+{
+    font-size: 0.8em;
+    font-family: Arial, "Arial Black", Verdana, sans-serif;
+    text-align: center;/*alignement*/
+    list-style: inside;
+    
+}
+.mail
+{
+    font-style: italic;
+    text-decoration: underline;
+    text-decoration: underline;
+}
+.numero
+{
+    background-color: rgb(104, 104, 104);
+    color: white;
+    text-decoration: line-through;/*barré*/
+}
+.gras
+{
+    font-weight: bolder;/*gras*/
+}
+.imageflottante
+{
+    float: left;
+    
+    
+}
+.dessous
+{
+    clear: both;
+}

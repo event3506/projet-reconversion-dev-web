@@ -1,0 +1,21 @@
+@font-face {
+    font-family: 'open_sansregular';
+    src: url('Open_sans/OpenSans-Regular-webfont.eot');
+    src: url('Open_sans/OpenSans-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('Open_sans/OpenSans-Regular-webfont.woff2') format('woff2'),
+         url('Open_sans/OpenSans-Regular-webfont.woff') format('woff'),
+         url('Open_sans/OpenSans-Regular-webfont.ttf') format('truetype'),
+         url('Open_sans/OpenSans-Regular-webfont.svg#open_sansregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+    
+
+p
+{
+    font-family: "open_sansregular", "Arial Black", Verdana, sans-serif;
+    font-size: 1.4em;
+    font-weight: bolder;
+
+}

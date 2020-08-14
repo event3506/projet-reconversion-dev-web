@@ -48,12 +48,6 @@ body
     justify-content: center;
     align-items: center;
 }
-th
-{ 
-
-
-    
-}
 .t1
 {
     border-spacing: 1.5em;/*espace entre les cellules*/
@@ -76,17 +70,19 @@ a:active/*change de couleur au moment du clic*/
 }
 .t2 
 {
-    border: 0.1em groove #44abca;
+    border: 0.4em groove #44abca;
     box-shadow: #255caf 0.1em 0.1em 0.1em;
-    font-size: 1em;
-    width: 60em;
-    text-align: justify;
+    width: 55em;
     border-radius: 0.4em;
     box-shadow: #255caf 0.1em 0.1em 0.1em;
+    align-items: center;
+    justify-content: center;
 }
 .P_tesla
 {
+    font-size: 1em;
     vertical-align: middle;
+    text-align: justify;
     margin-left: 0.9em;
     margin-bottom: 0.9em;
     margin-right: 0.9em;

@@ -107,5 +107,5 @@ ol {
     font-size: 0.9em;
     margin: 0 auto;
     padding: 0;
-    list-style: circle;
+    list-style: upper-roman;
 }

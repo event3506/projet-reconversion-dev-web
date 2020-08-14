@@ -1,31 +1,27 @@
-body
-{
+body {
     font-family: Arial, "Arial Black", Verdana, sans-serif;
-    background: url("images/background4.jpg"); 
+    background: url("images/background4.jpg");
     background-color: black;
     color: rgb(207, 207, 207);
     margin: auto;
     width: 60em;
 
-    /*background-size: cover;/*fond d'écran étendu
-    margin: 0;
-    padding: 0;*/
 }
 
-.titre1
-{
+.titre1 {
     text-align: center;
     font-size: 1.5em;/*taille du texte*/
 }
-.titre1 span
-{
+
+.titre1 span {
     display: inline-block;
     border: 0.2em outset #44abca;
     border-radius: 0.4em;
     padding: 0.7em;/*espace entre les bordures et le texte*/
     box-shadow: #255caf 0.2em 0.2em 0.2em;
-    
+
 }
+
 .menu {
     display: grid;
     grid-template-columns: 10em 10em 10em 10em 10em;
@@ -33,13 +29,12 @@ body
     grid-column-gap: 10px;
     align-items: center;
     justify-content: center;
-  }
-  
-  .menu-item 
-{
+}
+
+.menu-item {
     font-size: 1.1em;/*taille du texte*/
     margin-left: 0.3em;/*marge a gauche de 0.4em*/
-    border: 0.2em groove #44abca;/*Epaisseur, style et couleur de la bordure*/
+    border: 0.2em groove #44abca; /*Epaisseur, style et couleur de la bordure*/
     width: 7em;/*largeur de la bordure*/
     text-align: center;
     border-radius: 0.4em;/*bord arrondi*/
@@ -48,26 +43,28 @@ body
     justify-content: center;
     align-items: center;
 }
-.t1
-{
+
+.t1 {
     border-spacing: 1.5em;/*espace entre les cellules*/
     margin: auto;
 }
 
-a
-{
+a {
     text-decoration: none;
     color: rgb(207, 207, 207)
 }
-a:hover/*Quand on point la souris sur le lien*/
+
+a:hover
 {
-    text-decoration: underline;
+    text-decoration: underline;/*Quand on point la souris sur le lien*/
     background-color: rgb(122, 122, 122);
 }
-a:active/*change de couleur au moment du clic*/
+
+a:active
 {
-    background-color: #360303;
+    background-color: #360303;/*change de couleur au moment du clic*/
 }
+
 .t2 
 {
     border: 0.4em groove #44abca;
@@ -78,7 +75,8 @@ a:active/*change de couleur au moment du clic*/
     align-items: center;
     justify-content: center;
 }
-.P_tesla
+
+.P_tesla 
 {
     font-size: 1em;
     vertical-align: middle;
@@ -87,17 +85,20 @@ a:active/*change de couleur au moment du clic*/
     margin-bottom: 0.9em;
     margin-right: 0.9em;
 }
-.imageflottantenico
+
+.imageflottantenico 
 {
     float: left;
 }
-.liste1
+
+.liste1 
 {
     list-style-type: upper-roman;/*chosis le type de puce pour toute les liste "ol"*/
 }
-ol
+
+ol 
 {
-    border : 0.2em groove #44abca;
+    border: 0.2em groove #44abca;
     display: inline-block;
     text-align: left;
     margin-left: 1em;
@@ -106,4 +107,3 @@ ol
     box-shadow: #255caf 0.1em 0.1em 0.1em;
     width: auto;
 }
-

@@ -1,60 +1,111 @@
 /*commentaire*/
 
-body
-{
+body {
+    font-family: Arial, "Arial Black", Verdana, sans-serif;
     background-color: black;
+    background: url("images/background2.jpg");
+    background-size: 100%;
+    margin: auto;
     color: white;
 }
-.test-centrage-titre
-{
+
+.titre1 {
     text-align: center;
-    color: rgb(7, 135, 185);
-    font-size: 1.8em;
+    font-size: 1.5em;
+    /*taille du texte*/
 }
 
-h2
-{
+.titre1 span {
+    display: inline-block;
+    border: 0.2em outset #424242;
+    border-radius: 0.4em;
+    padding: 0.7em;
+    /*espace entre les bordures et le texte*/
+    box-shadow: #555657 0.2em 0.2em 0.2em;
+
+}
+
+.entete {
+    display: flex;
+    padding: 0.5em;
+    grid-column-gap: 0em;
+    align-items: center;
+    justify-content: center;
+    grid-row-gap: 30em;
+    grid-auto-rows: minmax(20em, 20em);
+
+}
+
+.entete-item {
+    grid-template-columns: 30em;
+    font-size: 0.9em;
+    /*taille du texte*/
+    border-left: 0.2em groove #424242;
+    border-top: 0.2em groove #424242;
+    border-bottom: 0.2em groove #424242;
+    width: 30em;
+    /*largeur de la bordure*/
+    text-align: left;
+    border-radius: 0.4em;
+    /*bord arrondi*/
+    font-weight: bold;
+    /*gras*/
+}
+
+.entete-item2 {
+    font-size: 0.9em;
+    /*taille du texte*/
+    border-right: 0.2em groove #424242;
+    border-top: 0.2em groove #424242;
+    border-bottom: 0.2em groove #424242;
+    border-radius: 0.4em;
+    /*bord arrondi*/
+    width: 30em;
+    /*largeur de la bordure*/
+    text-align: right;
+    font-weight: bold;
+    /*gras*/
+    justify-content: center;
+    align-items: right;
+}
+
+.tel {
+    text-decoration: underline;
+}
+
+.mail {
+    text-decoration: underline;
+}
+
+.titre {
+    display: flex;
+    padding: 0.5em;
+    justify-content: center;
+}
+
+.titre-contenu {
+    color: #0a0a0a;
+    grid-template-columns: 30em;
+    font-size: 1.1em;
+    Border: 0.2em groove #424242;
+    border-radius: 0.4em;
+    width: 49em;
+    font-weight: bold;
     text-align: center;
-    font-size: 1.4em;
+    padding-top: 1em;
 }
 
-p
-{
-    font-size: 0.8em;
-    font-family: Arial, "Arial Black", Verdana, sans-serif;
+.information {
+    display: flex;
+    padding: 0.5em;
+    font-size: 0.9em;
+    justify-content: center;
 }
 
-ul
-{
-    font-size: 0.8em;
-    font-family: Arial, "Arial Black", Verdana, sans-serif;
-    text-align: center;/*alignement*/
-    list-style: inside;
-    
-}
-.mail
-{
-    font-style: italic;
-    text-decoration: underline;
-    text-decoration: underline;
-}
-.numero
-{
-    background-color: rgb(104, 104, 104);
-    color: white;
-    text-decoration: line-through;/*barré*/
-}
-.gras
-{
-    font-weight: bolder;/*gras*/
-}
-.imageflottante
-{
-    float: left;
-    
-    
-}
-.dessous
-{
-    clear: both;
+ol {
+    display: table;
+    font-size: 0.9em;
+    margin: 0 auto;
+    padding: 0;
+    list-style: circle;
 }

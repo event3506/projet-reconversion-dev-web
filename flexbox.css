@@ -1,0 +1,46 @@
+#conteneur
+{
+    display: flex;
+    flex-direction: row;
+    margin-left: 150px;
+}
+
+.element-1
+{
+    background-color: #44abca;
+    border: 5px groove #44abca;
+}
+.element-2
+{
+    background-color: #880a0a;
+    border: 5px groove #880a0a;
+}
+.element-3
+{
+    background-color: #169205;
+    border: 5px groove #169205;
+}
+#conteneur2
+{
+    display: flex;
+    flex-direction: column;
+    margin-left: 150px;
+}
+.element-4
+{
+    background-color: #d6c100;
+    border: 5px groove #d6c100;
+    width: 150px;
+}
+.element-5
+{
+    background-color: #0016df;
+    border: 5px groove #0016df;
+    width: 150px;
+}
+.element-6
+{
+    background-color: #ec00cd;
+    border: 5px groove #ec00cd;
+    width: 150px;
+}

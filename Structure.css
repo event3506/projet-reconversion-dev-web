@@ -1,0 +1,38 @@
+body {
+    font-family: Arial, "Arial Black", Verdana, sans-serif;
+    background: url("images/background4.jpg");
+    background-color: black;
+    color: rgb(207, 207, 207);
+}
+.bienvenue
+{
+text-align: center;/*alignement du text dans le block*/
+font-size: 1.8em;/*taille du texte*/
+border: 5px outset #44abca;/*bordure+taille+couleur*/
+padding: 0.5em;/*marge interne au block*/
+width: 50%;/*largeur du block*/
+min-width: 600px;/*largeur mini du block*/
+height: 30px;/*hauteur du block*/
+margin: auto;/*marge exterieur au block*/
+margin-top: 25px;
+}
+.P_tesla
+{
+    width: 600px;
+    height: 200px;
+    overflow: auto;/* controle le dépassement du text dans un block */
+    border: 5px outset #44abca;
+    text-align: justify;
+    padding: 20px; /* Marge intérieure de 12px */
+    margin: auto; /* Marge extérieure de 50px */
+}
+.imageflottantenico 
+{
+    float: left;
+}
+.lienhyperlong
+{
+    word-wrap: break-word;/* force le retour a la ligne dans un block, très utile pour les saisies manuel type forum */
+    width: 600px;
+    border: 5px outset #44abca;
+}

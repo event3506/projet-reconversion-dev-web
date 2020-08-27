@@ -44,10 +44,9 @@ header
     border: 4px groove #484949;
     height:150px;
     width: 900px;
-    background: url('images/separateur.png') repeat-x bottom;
     display: flex;
     justify-content: space-between;
-    align-items: baseline;
+    align-items: flex-end;
     margin: auto;
 }
 #titre_principal
@@ -60,7 +59,7 @@ header
     display: flex;
     flex-direction: row;
     align-items: center;
-    margin-top: 15px;
+    margin-bottom: 15px;
 }
 #logo img
 {

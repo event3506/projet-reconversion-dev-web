@@ -22,6 +22,7 @@ header
     justify-content: space-between;
     align-items: flex-end;
     margin: auto;
+    position: relative;
 }
 #titre_principal
 {
@@ -47,20 +48,24 @@ header
     color: #000000;
 }
 .bouton-menu-droite
+{ 
+    width: 125px;
+    height: 25px;  
+    
+}
+#menu
 {
     position: relative;
-    width: 125px;
-    height: 25px;
 }
 nav ul
 {
     list-style-type: none;
     display: flex;
+
+    padding: 0 0 0 0;
+    
 }
-nav li
-{
-    margin-right: 4px;
-}
+
 nav a
 {
     color: #181818;
@@ -83,6 +88,7 @@ nav a:hover
     background: url('images/bannière.jpg') no-repeat ;
     box-shadow: 0px 4px 4px #C5BBAF;
     margin-bottom: 25px;
+    position: relative;
 }
 #banniere_description
 {
@@ -92,9 +98,11 @@ nav a:hover
     background-color: #0000008c;
     color: white;
     width: 900px;
-    height: 30px;
-    margin-top: 171px;
+    height: 40px;
+    bottom:0;
     text-align: left;
+    justify-content: center;
+    padding-top: 10px;
     
 }
 .bouton_rouge
@@ -103,7 +111,7 @@ nav a:hover
     padding-right : 10px;
     margin-right: 5px;
     float: right;
-    text-align: right;
+    text-align: center;
     border-radius: 10px;
     background: url('images/fond_degraderouge.png') repeat-x;
 }

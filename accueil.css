@@ -1,109 +1,270 @@
-body {
+body
+{
+    font-family: "Segoe Print", Arial, Verdana, sans-serif;
+    background: url("images/background7.jpg") center;
+    background-repeat: no-repeat;
     font-family: Arial, "Arial Black", Verdana, sans-serif;
-    background: url("images/background4.jpg");
-    background-color: black;
-    color: rgb(207, 207, 207);
-    margin: auto;
-    width: 60em;
-
+    background-color: #000000;
+    color: #000000;
 }
-
-.titre1 {
-    text-align: center;
-    font-size: 1.5em;/*taille du texte*/
-}
-
-.titre1 span {
-    display: inline-block;
-    border: 0.2em outset #44abca;
-    border-radius: 0.4em;
-    padding: 0.7em;/*espace entre les bordures et le texte*/
-    box-shadow: #255caf 0.2em 0.2em 0.2em;
-
-}
-
-.menu {
-    display: grid;
-    grid-template-columns: 10em 10em 10em 10em 10em;
-    padding: 5px;
-    grid-column-gap: 10px;
-    align-items: center;
-    justify-content: center;
-}
-
-.menu-item {
-    font-size: 1.1em;/*taille du texte*/
-    margin-left: 0.3em;/*marge a gauche de 0.4em*/
-    border: 0.2em groove #44abca; /*Epaisseur, style et couleur de la bordure*/
-    width: 7em;/*largeur de la bordure*/
-    text-align: center;
-    border-radius: 0.4em;/*bord arrondi*/
-    box-shadow: #255caf 0.1em 0.1em 0.1em;
-    font-weight: bold;/*gras*/
-    justify-content: center;
-    align-items: center;
-}
-
-.t1 {
-    border-spacing: 1.5em;/*espace entre les cellules*/
+#bloc_page
+{
+    width: 900px;
     margin: auto;
 }
+header
+{
+    border: 4px groove #484949;
+    border-radius: 5px;
+    box-shadow: 0px 4px 4px #1111134d;
+    height:150px;
+    width: 900px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin: auto;
+    position: relative;
+}
+#titre_principal
+{
+    display: flex;
+    flex-direction: column;
+}
+/* en-tete */
+#logo
+{
+    padding-bottom: 40px;
+}
+#logo img
+{
+    width: 100px;
+    height: 100px;
+}
+#titre
+{
+    font-family: "Segoe Print", Arial, Verdana, sans-serif;
+    position: absolute;
+    padding-top: 20px;
+    padding-left: 125px;
+    color: #000000;
+}
+.bouton-menu-droite
+{ 
+    width: 125px;
+    height: 25px;  
+    
+}
+#menu
+{
+    position: relative;
+}
+nav ul
+{
+    list-style-type: none;
+    display: flex;
+    padding: 0 0 0 0;
+    
+}
 
-a {
+nav a
+{
+    color: #181818;
+    padding-bottom: 3px;
     text-decoration: none;
-    color: rgb(207, 207, 207)
 }
-
-a:hover
+nav a:hover
 {
-    text-decoration: underline;/*Quand on point la souris sur le lien*/
-    background-color: rgb(122, 122, 122);
+    color: #760001;
+    border-bottom: 3px solid #8f8f8f;
 }
-
-a:active
+/* banière */
+#banniere_image
 {
-    background-color: #360303;/*change de couleur au moment du clic*/
+    margin : auto;
+    margin-top : 20px;
+    width: 900px;
+    height: 200px;
+    border: 4px groove #484949;
+    border-radius: 5px;
+    background: url('images/bannière.jpg') no-repeat ;
+    box-shadow: 0px 4px 4px #1111134d;
+    margin-bottom: 25px;
+    position: relative;
 }
-
-.t2 
+#banniere_description
 {
-    border: 0.4em groove #44abca;
-    box-shadow: #255caf 0.1em 0.1em 0.1em;
-    width: 55em;
-    border-radius: 0.4em;
-    box-shadow: #255caf 0.1em 0.1em 0.1em;
-    align-items: center;
-    justify-content: center;
-}
-
-.P_tesla 
-{
-    font-size: 1em;
-    vertical-align: middle;
-    text-align: justify;
-    margin-left: 0.9em;
-    margin-bottom: 0.9em;
-    margin-right: 0.9em;
-}
-
-.imageflottantenico 
-{
-    float: left;
-}
-
-.liste1 
-{
-    list-style-type: upper-roman;/*chosis le type de puce pour toute les liste "ol"*/
-}
-
-ol 
-{
-    border: 0.2em groove #44abca;
-    display: inline-block;
+    font-family: "Segoe Print", Arial, Verdana, sans-serif;
+    font-size: 18px;
+    position: absolute;
+    background-color: #0000008c;
+    color: white;
+    width: 900px;
+    height: 40px;
+    bottom:0;
     text-align: left;
-    margin-left: 1em;
-    font-size: 1em;
-    border-radius: 0.4em;
-    box-shadow: #255caf 0.1em 0.1em 0.1em;
-    width: auto;
+    justify-content: center;
+    padding-top: 10px;
+    
 }
+.bouton_rouge
+{
+    padding-left: 10px;
+    padding-right : 10px;
+    margin-right: 5px;
+    float: right;
+    text-align: center;
+    border-radius: 10px;
+    background: url('images/fond_degraderouge.png') repeat-x;
+}
+a
+{
+    text-decoration: none;
+    color: white;
+}
+/* section */
+section
+{
+    box-shadow: 0px 4px 4px #1111134d;
+    border-radius: 5px;
+    border: 4px groove #484949;
+    display: flex;
+    padding-left: 2px;
+    margin-bottom: 2px;
+    width: 900px;
+    margin: auto;
+}
+article, aside
+{
+    text-align: justify;
+}
+article
+{
+    margin-right: 20px;
+    flex: 3;
+}
+.ico_categorie
+{
+    vertical-align: middle;
+    margin-right: 8px;
+    height: 10%;
+    width: 10%;
+}
+article p
+{
+    font-size: 15px;
+}
+aside
+{
+    flex: 1.2;
+    position: relative;
+    background-color: #c9bcb483;
+    box-shadow: 0px 2px 5px #1c1a19;
+    border-radius: 5px;
+    padding: 10px;
+    color: #000000;
+    font-size: 0.9em;
+    height: 350px;
+}
+#fleche_bulle
+{
+    position: absolute;
+    top: 100px;
+    left: -12px;
+    opacity: 0.5;
+}
+#photo_zozor
+{
+    text-align: center;
+}
+#photo_zozor img
+{
+    width: 50%;
+    height: 50%;
+}
+aside img
+{
+    margin-right: 5px;
+}
+article h2
+{
+    font-size: 20px;
+}
+aside h1
+{
+    font-size: 20px;
+}
+
+/* Footer */
+#pied-de-page
+{
+    width: 900px;
+    margin : auto;
+    margin-top: 20px;
+    justify-content: space-around;
+}
+footer
+{
+    display: flex;
+    border: 4px groove #484949;
+    box-shadow: 0px 2px 5px #1c1a19;
+    border-radius: 5px;
+    padding-left: 5px;
+}
+
+footer p, footer ul
+{
+    font-size: 0.8em;
+}
+
+footer h1
+{
+    font-size: 1.1em;
+}
+
+
+#tweet
+{
+    width: 28%;
+}
+
+#mes_photos
+{
+    width: 35%;
+}
+
+#mes_amis
+{
+    width: 31%;
+}
+
+#mes_photos img
+{
+    border: 1px solid #181818;
+    margin-right: 2px;
+}
+
+#listes_amis
+{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0;
+}
+
+#mes_amis ul
+{
+    list-style-image: url('images/ico_liensexterne.png');
+    padding-left: 2px;
+}
+
+#mes_amis a
+{
+    text-decoration: none;
+    color: #760001;
+}
+.image_footer
+{
+    width: 100px;
+    height: 63px;
+}
+/* 
+*/

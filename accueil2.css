@@ -86,7 +86,7 @@ nav a:hover
     border: 4px groove #484949;
     border-radius: 5px;
     background: url('images/bannière.jpg') no-repeat ;
-    box-shadow: 0px 4px 4px #C5BBAF;
+    box-shadow: 0px 4px 4px #2b299e4d;
     margin-bottom: 25px;
     position: relative;
 }

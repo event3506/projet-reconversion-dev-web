@@ -154,7 +154,13 @@ section
     width: 900px;
     margin: auto;
 }
-
+#ameliorer
+{
+    width: 600px;
+    max-width: 600px;
+    height: 100px;
+    max-height: 100px;
+}
 article,
 aside 
 {

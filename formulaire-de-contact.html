@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8" />
     <link rel="stylesheet" href="accueil.css" />
-    <title>accueil</title><!-- Ceci est un commentaire -->
+    <title>contact</title><!-- Ceci est un commentaire -->
 </head>
 
 <body>
@@ -38,7 +38,64 @@
     </div>
     <section>
         <article>
-        
+            <p>Donnez votre avis sur ce site.</p>
+            <form method="post" action="https://webhook.site/5d16028b-7cd1-4357-bac3-45298f94982d">
+                <fieldset>
+                    <legend>Vos informations</legend>
+                    <div class=formulaire>
+                        <div class="mail">
+                            <p>Votre Adresse Mail :</p>
+                        </div>
+                        <div class="form-mail"><input type="text" name="mail" id="formulaire-01"
+                                placeholder="Ex : Zozor@gmail.com" size="30" maxlength="40" autofocus required /></div>
+                        <div class="pass">
+                            <p>Votre Mot de Passe :</p>
+                        </div>
+                        <div class="form-pass"><input type="password" name="pass" id="formulaire-01"
+                                placeholder="Ex : sdS215?" size="30" maxlength="40" required /></div>
+                        <div class="date">
+                            <p>Votre date de naissance :</p>
+                        </div>
+                        <div class="form-date"><input type="date" name="date-aniv" id="formulaire-01"
+                                placeholder="Ex : Zozor@gmail.com" size="30" maxlength="40" required />
+                        </div>
+                        <div>
+                            <p>Pays :</p>
+                        </div>
+                        <div>
+                            <p>
+                                <select name="pays" id="pays" required>
+                                    <optgroup label="Europe">
+                                        <option value="france">France</option>
+                                        <option value="espagne">Espagne</option>
+                                        <option value="italie">Italie</option>
+                                        <option value="royaume-uni">Royaume-Uni</option>
+                                    </optgroup>
+                                    <optgroup label="Amérique">
+                                        <option value="canada">Canada</option>
+                                        <option value="etats-unis">Etats-Unis</option>
+                                    </optgroup>
+                                    <optgroup label="Asie">
+                                        <option value="chine">Chine</option>
+                                        <option value="japon">Japon</option>
+                                    </optgroup>
+                                </select>
+                            </p>
+                        </div>
+                    </div>
+                </fieldset>
+                <fieldset>
+                    <legend>exprimez-vous</legend>
+                    <div class="amelio">
+                        <p>Comment pensez-vous que pourrais-je améliorer mon site ?</p>
+                    </div>
+                    <div class="amelio"><textarea name="message" id="ameliorer"></textarea></div>
+                    <div><label for="Validez">Validez :</label><input type="checkbox" name="validation" value="Validez"
+                            id="Validez" />
+                    </div>
+                    <div><input type="submit" value="Envoyer" id="envoyer" /></div>
+                </fieldset>
+            </form>
         </article>
         <aside>
             <h2>À propos de l'auteur</h2>

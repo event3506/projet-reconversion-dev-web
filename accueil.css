@@ -21,7 +21,6 @@ header
     margin: auto;
     position: relative;
 }
-
 #titre_principal 
 {
     display: flex;
@@ -154,13 +153,6 @@ section
     width: 900px;
     margin: auto;
 }
-#ameliorer
-{
-    width: 600px;
-    max-width: 600px;
-    height: 100px;
-    max-height: 100px;
-}
 article,
 aside 
 {
@@ -197,7 +189,7 @@ aside
     margin: 2px;
     color: #000000;
     font-size: 0.9em;
-    height: 350px;
+    height: 400px;
 }
 
 #fleche_bulle 
@@ -309,6 +301,35 @@ footer h1
     width: 100px;
     height: 63px;
 }
-
-/* 
-*/
+/*  formulaire */
+.formulaire
+{
+    width: 600px;
+    display: grid;
+    grid-template-columns: 300px 300px;
+    align-items: center;
+}
+#formulaire-01
+{
+    width: 250px;
+}
+article
+{
+    padding-left : 0.5em;
+    padding-bottom: 0.5em;
+}
+.amelio
+{
+    grid-column: 1  / span 2;
+}
+#ameliorer
+{
+    width: 600px;
+    max-width: 600px;
+    min-width: 600px;
+    min-height: 100px;
+}
+#envoyer
+{
+    float: right;
+}

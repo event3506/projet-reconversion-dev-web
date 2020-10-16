@@ -1,0 +1,10 @@
+body 
+{
+    font-family: "Segoe Print", Arial, Verdana, sans-serif;
+    background: #000000;
+    background: -webkit-linear-gradient(to top, #000000, #434343);
+    background: linear-gradient(to top, #434343, #000000);
+    color: #a0a0a0;
+    font-family: Arial, "Arial Black", Verdana, sans-serif;
+    background-color: #000000;
+}
